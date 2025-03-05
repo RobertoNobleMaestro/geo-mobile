@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>App de Rutas Móvil</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <div id="panel-ruta" class="panel-movil">
+    <h3>Ruta a <span id="nombre-lugar"></span></h3>
+    <p id="distancia-tiempo"></p>
+    <button id="cerrar-panel">Cerrar</button>
+  </div>
+
+  <button class="fab" id="centrar-usuario" onclick="centrarEnUsuario()">
+    <i class="fas fa-location-arrow"></i>
+  </button>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@3.2.0/dist/leaflet-routing-machine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
