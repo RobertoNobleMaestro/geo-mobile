@@ -7,7 +7,7 @@ body, html {
   
   /* Mapa ocupa el 90% de la altura */
   #map {
-    height: 80vh;
+    height: 90vh;
   }
   
   /* Estilo del panel lateral */
@@ -45,6 +45,7 @@ body, html {
     border: none;
     padding: 15px;
     border-radius: 50%;
+    z-index: 9999;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
