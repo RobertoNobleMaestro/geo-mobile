@@ -8,6 +8,7 @@ body, html {
   /* Mapa ocupa el 90% de la altura */
   #map {
     height: 90vh;
+    z-index: -9999;
   }
   
   /* Estilo del panel lateral */
